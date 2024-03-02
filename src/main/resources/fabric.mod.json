@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "throwable-fireballs",
+  "version": "${version}",
+  "name": "Throwable Fireballs",
+  "description": "download hypixel free no regitration\nmakes fire charges shoot fireballs",
+  "authors": ["kraskaska"],
+  "contact": {
+    "repo": "https://github.com/getkirill/throwable-fireballs"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/throwable-fireballs/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kraskaska.minecraft.mods.throwablefireballs.Throwable_fireballs"
+    ]
+  },
+  "mixins": [
+    "throwable-fireballs.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

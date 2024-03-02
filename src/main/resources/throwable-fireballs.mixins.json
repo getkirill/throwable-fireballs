@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.kraskaska.minecraft.mods.throwablefireballs.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "Item_FireChargeItemMixin",
+    "FireChargeItemMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
